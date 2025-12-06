@@ -917,13 +917,54 @@
 }
 
 /* Responsive */
+@media (max-width: 1400px) {
+  .pos-layout {
+    grid-template-columns: 1fr 350px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .suppliers-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
 @media (max-width: 1024px) {
   .pos-layout {
     grid-template-columns: 1fr;
+    height: auto;
   }
 
   .cart-section {
-    height: 400px;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .products-section {
+    max-height: 500px;
+  }
+
+  .modal {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+
+  .receipt-modal {
+    max-width: 90%;
+  }
+
+  .products-table-container,
+  .sales-table-container {
+    overflow-x: auto;
+  }
+
+  .products-table,
+  .sales-table {
+    min-width: 800px;
   }
 }
 
@@ -935,29 +976,267 @@
   .sidebar {
     width: 100%;
     height: auto;
+    flex-direction: row;
+  }
+
+  .sidebar-header {
+    padding: 1rem;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .sidebar-header h2 {
+    font-size: 1.25rem;
+    white-space: nowrap;
   }
 
   .nav-menu {
     display: flex;
     overflow-x: auto;
+    padding: 0;
+    flex: 1;
+    align-items: center;
+  }
+
+  .nav-menu::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .nav-menu::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
   }
 
   .nav-menu li {
     flex-shrink: 0;
   }
 
-  .main-content {
-    padding: 1rem;
+  .nav-menu button {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-left: none;
+    border-bottom: 3px solid transparent;
+    white-space: nowrap;
   }
 
-  .stats-grid,
-  .products-grid,
+  .nav-menu button:hover {
+    border-left-color: transparent;
+    border-bottom-color: #60a5fa;
+  }
+
+  .nav-menu button.active {
+    border-left-color: transparent;
+    border-bottom-color: #fbbf24;
+  }
+
+  .sidebar-footer {
+    display: none;
+  }
+
+  .main-content {
+    padding: 1rem;
+    height: calc(100vh - 60px);
+  }
+
+  .page-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  .page-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .page-header button {
+    width: 100%;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    flex-direction: row;
+  }
+
+  .stat-icon {
+    font-size: 2rem;
+  }
+
   .suppliers-grid {
     grid-template-columns: 1fr;
   }
 
   .form-row {
     grid-template-columns: 1fr;
+  }
+
+  .pos-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  .pos-product-card h4 {
+    font-size: 0.8rem;
+  }
+
+  .category-filter {
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+  }
+
+  .category-filter::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .category-btn {
+    flex-shrink: 0;
+  }
+
+  .table-actions {
+    flex-direction: column;
+  }
+
+  .sales-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    padding: 1rem;
+    max-height: 95vh;
+  }
+
+  .modal h2 {
+    font-size: 1.25rem;
+  }
+
+  .pos-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-items {
+    max-height: 300px;
+  }
+
+  .receipt-table {
+    font-size: 0.875rem;
+  }
+
+  .receipt-table th,
+  .receipt-table td {
+    padding: 0.5rem 0.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar-header h2 {
+    font-size: 1rem;
+  }
+
+  .nav-menu button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .main-content {
+    padding: 0.75rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.25rem;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+  }
+
+  .stat-info h3 {
+    font-size: 0.75rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  .pos-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .pos-product-card {
+    padding: 0.75rem;
+  }
+
+  .pos-product-card h4 {
+    font-size: 0.75rem;
+  }
+
+  .product-price {
+    font-size: 0.875rem;
+  }
+
+  .product-stock {
+    font-size: 0.7rem;
+  }
+
+  .cart-item {
+    padding: 0.75rem;
+  }
+
+  .cart-item-info h4 {
+    font-size: 0.875rem;
+  }
+
+  .qty-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 0.875rem;
+  }
+
+  .modal {
+    padding: 0.75rem;
+  }
+
+  .form-group label {
+    font-size: 0.875rem;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .supplier-card,
+  .vendor-card {
+    padding: 1rem;
+  }
+
+  .products-table,
+  .sales-table {
+    font-size: 0.875rem;
+  }
+
+  .products-table th,
+  .products-table td,
+  .sales-table th,
+  .sales-table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .payment-badge {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  .btn-edit,
+  .btn-delete,
+  .btn-view {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
   }
 }
 

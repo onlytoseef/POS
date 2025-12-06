@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { DashboardStats, Product, Sale, PurchaseOrder, Vendor } from '../types';
+import type { DashboardStats, Product, Sale, PurchaseOrder } from '../types';
 import productsData from '../data/products.json';
 import salesData from '../data/sales.json';
 import purchasesData from '../data/purchases.json';
