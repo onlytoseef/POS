@@ -1,0 +1,58 @@
+[
+  {
+    "id": "V001",
+    "name": "Ali Ahmed",
+    "businessName": "Ali General Store",
+    "contact": "+92-301-1111111",
+    "email": "ali@generalstore.pk",
+    "address": "Shop 12, Market Plaza, Karachi",
+    "paymentTerms": "credit",
+    "creditLimit": 200000,
+    "balance": 45000,
+    "totalSales": 350000,
+    "cashSales": 150000,
+    "creditSales": 200000
+  },
+  {
+    "id": "V002",
+    "name": "Hassan Khan",
+    "businessName": "Khan Traders",
+    "contact": "+92-302-2222222",
+    "email": "hassan@khantraders.pk",
+    "address": "45 Commercial Area, Lahore",
+    "paymentTerms": "cash",
+    "creditLimit": 0,
+    "balance": 0,
+    "totalSales": 180000,
+    "cashSales": 180000,
+    "creditSales": 0
+  },
+  {
+    "id": "V003",
+    "name": "Fatima Enterprises",
+    "businessName": "Fatima Wholesale",
+    "contact": "+92-303-3333333",
+    "email": "info@fatimaenterprises.pk",
+    "address": "78 Business District, Islamabad",
+    "paymentTerms": "credit",
+    "creditLimit": 150000,
+    "balance": 32000,
+    "totalSales": 280000,
+    "cashSales": 100000,
+    "creditSales": 180000
+  },
+  {
+    "id": "V004",
+    "name": "Bilal Store",
+    "businessName": "Bilal Super Mart",
+    "contact": "+92-304-4444444",
+    "email": "bilal@supermart.pk",
+    "address": "23 Main Road, Faisalabad",
+    "paymentTerms": "cash",
+    "creditLimit": 0,
+    "balance": 0,
+    "totalSales": 95000,
+    "cashSales": 95000,
+    "creditSales": 0
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S001",
+    "name": "Beverage Distributors Ltd",
+    "contact": "+92-300-1234567",
+    "email": "info@bevdist.pk",
+    "address": "123 Main Street, Karachi",
+    "paymentTerms": "credit",
+    "creditLimit": 500000,
+    "balance": 125000,
+    "totalPurchases": 450000,
+    "cashPurchases": 200000,
+    "creditPurchases": 250000
+  },
+  {
+    "id": "S002",
+    "name": "Snack World Suppliers",
+    "contact": "+92-321-9876543",
+    "email": "sales@snackworld.pk",
+    "address": "456 Food Plaza, Lahore",
+    "paymentTerms": "cash",
+    "creditLimit": 0,
+    "balance": 0,
+    "totalPurchases": 180000,
+    "cashPurchases": 180000,
+    "creditPurchases": 0
+  },
+  {
+    "id": "S003",
+    "name": "Telecom Recharge Hub",
+    "contact": "+92-333-4567890",
+    "email": "contact@telecomhub.pk",
+    "address": "789 Tech Center, Islamabad",
+    "paymentTerms": "cash",
+    "creditLimit": 0,
+    "balance": 0,
+    "totalPurchases": 95000,
+    "cashPurchases": 95000,
+    "creditPurchases": 0
+  },
+  {
+    "id": "S004",
+    "name": "Grocery Wholesale Market",
+    "contact": "+92-345-6789012",
+    "email": "orders@grocerywholesale.pk",
+    "address": "101 Market Road, Faisalabad",
+    "paymentTerms": "credit",
+    "creditLimit": 300000,
+    "balance": 75000,
+    "totalPurchases": 320000,
+    "cashPurchases": 120000,
+    "creditPurchases": 200000
+  }
+]

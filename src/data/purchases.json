@@ -1,0 +1,93 @@
+[
+  {
+    "id": "PO001",
+    "date": "2025-12-05T09:00:00",
+    "supplierId": "S001",
+    "supplierName": "Beverage Distributors Ltd",
+    "items": [
+      {
+        "productId": "P001",
+        "productName": "Coca Cola 1.5L",
+        "quantity": 50,
+        "price": 95,
+        "total": 4750
+      },
+      {
+        "productId": "P003",
+        "productName": "Nestle Pure Water 1.5L",
+        "quantity": 100,
+        "price": 65,
+        "total": 6500
+      }
+    ],
+    "subtotal": 11250,
+    "tax": 0,
+    "discount": 250,
+    "total": 11000,
+    "paymentMethod": "credit",
+    "notes": "Regular monthly order"
+  },
+  {
+    "id": "PO002",
+    "date": "2025-12-04T14:30:00",
+    "supplierId": "S004",
+    "supplierName": "Grocery Wholesale Market",
+    "items": [
+      {
+        "productId": "P006",
+        "productName": "National Salt 800g",
+        "quantity": 100,
+        "price": 32,
+        "total": 3200
+      },
+      {
+        "productId": "P007",
+        "productName": "Shan Biryani Masala",
+        "quantity": 50,
+        "price": 60,
+        "total": 3000
+      },
+      {
+        "productId": "P008",
+        "productName": "Tapal Tea 475g",
+        "quantity": 40,
+        "price": 520,
+        "total": 20800
+      }
+    ],
+    "subtotal": 27000,
+    "tax": 0,
+    "discount": 500,
+    "total": 26500,
+    "paymentMethod": "credit",
+    "notes": "Bulk order - discount applied"
+  },
+  {
+    "id": "PO003",
+    "date": "2025-12-03T11:15:00",
+    "supplierId": "S002",
+    "supplierName": "Snack World Suppliers",
+    "items": [
+      {
+        "productId": "P002",
+        "productName": "Lays Chips 50g",
+        "quantity": 200,
+        "price": 40,
+        "total": 8000
+      },
+      {
+        "productId": "P005",
+        "productName": "Dairy Milk Chocolate",
+        "quantity": 50,
+        "price": 120,
+        "total": 6000
+      }
+    ],
+    "subtotal": 14000,
+    "tax": 0,
+    "discount": 0,
+    "total": 14000,
+    "paymentMethod": "cash",
+    "notes": "Cash payment - full amount paid"
+  }
+]

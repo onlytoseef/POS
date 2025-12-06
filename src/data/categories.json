@@ -1,0 +1,22 @@
+[
+  {
+    "id": "CAT001",
+    "name": "Beverages",
+    "description": "Cold drinks, water, juices"
+  },
+  {
+    "id": "CAT002",
+    "name": "Snacks",
+    "description": "Chips, chocolates, biscuits"
+  },
+  {
+    "id": "CAT003",
+    "name": "Grocery",
+    "description": "Daily use items"
+  },
+  {
+    "id": "CAT004",
+    "name": "Mobile",
+    "description": "Recharge cards and accessories"
+  }
+]

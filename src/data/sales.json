@@ -1,0 +1,114 @@
+[
+  {
+    "id": "SALE001",
+    "date": "2025-12-06T10:30:00",
+    "vendorId": "V001",
+    "vendorName": "Ali General Store",
+    "items": [
+      {
+        "productId": "P001",
+        "productName": "Coca Cola 1.5L",
+        "quantity": 24,
+        "price": 120,
+        "total": 2880
+      },
+      {
+        "productId": "P002",
+        "productName": "Lays Chips 50g",
+        "quantity": 50,
+        "price": 50,
+        "total": 2500
+      }
+    ],
+    "subtotal": 5380,
+    "tax": 0,
+    "discount": 80,
+    "total": 5300,
+    "paymentMethod": "credit",
+    "notes": "Monthly order - credit terms"
+  },
+  {
+    "id": "SALE002",
+    "date": "2025-12-06T11:15:00",
+    "vendorId": "V002",
+    "vendorName": "Khan Traders",
+    "items": [
+      {
+        "productId": "P004",
+        "productName": "Ooredoo Recharge 100",
+        "quantity": 100,
+        "price": 100,
+        "total": 10000
+      }
+    ],
+    "subtotal": 10000,
+    "tax": 0,
+    "discount": 0,
+    "total": 10000,
+    "paymentMethod": "cash",
+    "notes": "Cash payment received"
+  },
+  {
+    "id": "SALE003",
+    "date": "2025-12-05T15:45:00",
+    "vendorId": "V003",
+    "vendorName": "Fatima Wholesale",
+    "items": [
+      {
+        "productId": "P003",
+        "productName": "Nestle Pure Water 1.5L",
+        "quantity": 48,
+        "price": 80,
+        "total": 3840
+      },
+      {
+        "productId": "P005",
+        "productName": "Dairy Milk Chocolate",
+        "quantity": 20,
+        "price": 150,
+        "total": 3000
+      },
+      {
+        "productId": "P006",
+        "productName": "National Salt 800g",
+        "quantity": 30,
+        "price": 40,
+        "total": 1200
+      }
+    ],
+    "subtotal": 8040,
+    "tax": 0,
+    "discount": 200,
+    "total": 7840,
+    "paymentMethod": "credit",
+    "notes": "Wholesale order - discount applied"
+  },
+  {
+    "id": "SALE004",
+    "date": "2025-12-05T09:20:00",
+    "vendorId": "V004",
+    "vendorName": "Bilal Super Mart",
+    "items": [
+      {
+        "productId": "P007",
+        "productName": "Shan Biryani Masala",
+        "quantity": 25,
+        "price": 75,
+        "total": 1875
+      },
+      {
+        "productId": "P008",
+        "productName": "Tapal Tea 475g",
+        "quantity": 10,
+        "price": 580,
+        "total": 5800
+      }
+    ],
+    "subtotal": 7675,
+    "tax": 0,
+    "discount": 0,
+    "total": 7675,
+    "paymentMethod": "cash",
+    "notes": "Cash sale"
+  }
+]
